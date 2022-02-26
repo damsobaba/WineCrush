@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     func presentWineVc() {
     let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "wine") as! WineViewController
         vc2.wines = wines
-       // vc2.modalPresentationStyle = .pageSheet
+        vc2.modalPresentationStyle = .pageSheet
        present(vc2, animated: true, completion: nil)
     }
     func searchViewUI() {
